@@ -1,11 +1,15 @@
 @import url(../style/reset.css);
 @import url(../style/fonts.css);
 
+/* GENERAL SETTING */
 body {
 	background-color: #000000;
 	color: #fff;
 }
+/* GENERAL SETTING */
 
+
+/* MENU */
 .menu {
 	margin: 79.79px auto;
 	width: 1338.27px;
@@ -33,6 +37,13 @@ body {
 	line-height: 24px;
 }
 
+.nav-link:hover {
+	text-decoration: underline;
+}
+/* MENU */
+
+
+/* HERO */
 .hero {
 	margin: 106.06px 0;
 }
@@ -101,6 +112,14 @@ body {
 	padding: 13.07px 19.42px;
 }
 
+.hero__button:hover {
+	border: 5px solid black;
+	text-decoration: underline;
+}
+/* HERO */
+
+
+/* PORTFOLIO SECTION */
 .portfolio__container {
 	width: 1228.41px;
 	margin: 981.16px auto 0px;
@@ -152,3 +171,4 @@ body {
 .port-img-6 { 
 	height: 605.76px;
 }
+/* PORTFOLIO SECTION */
