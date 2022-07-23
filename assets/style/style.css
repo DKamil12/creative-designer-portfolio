@@ -1,0 +1,154 @@
+@import url(../style/reset.css);
+@import url(../style/fonts.css);
+
+body {
+	background-color: #000000;
+	color: #fff;
+}
+
+.menu {
+	margin: 79.79px auto;
+	width: 1338.27px;
+	padding: 0 20px;
+	font-family: 'Inter', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+}
+
+.menu__logo {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.menu__nav {
+	display: inherit;
+	gap: 57px;
+}
+
+.nav-link {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.hero {
+	margin: 106.06px 0;
+}
+
+.hero__image-1 {
+	width: 490.55px;
+	height: 533.07px;
+	background-image: url(../images/hero-img-1.svg);
+	position: absolute;
+	right: 0;
+	/* left: 1021.46px; */
+	top: 214.85px;
+	z-index: -1;
+}
+
+.hero__image-2 {
+	width: 529.37px;
+	height: 535.63px;
+	background-image: url(../images/hero-img-2.svg);
+	position: absolute;
+	top: 544.44px;
+}
+
+.hero__text {
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	width: 678.9px;
+	padding: 0 20px;
+	margin: 149.59px 109.73px;
+	z-index: 0;
+}
+
+.hero__title {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	position: absolute;
+}
+
+.hero__title-start {
+	font-size: 309.341px;
+	line-height: 412px;
+	left: 165.05px;
+	top: 275.38px;
+}
+
+.hero__title-end {
+	font-size: 284.808px;
+	line-height: 380px;
+	left: 304.55px;
+	top: 524.14px;
+}
+
+.hero__button {
+	background-color: #fff;
+	position: absolute;
+	left: 750.04px;
+	top: 964.94px;
+	color: #000000;
+	font-family: 'Inter';
+	font-weight: 600;
+	font-size: 38.4067px;
+	line-height: 46px;
+	text-align: center;
+	padding: 13.07px 19.42px;
+}
+
+.portfolio__container {
+	width: 1228.41px;
+	margin: 981.16px auto 0px;
+	text-align: center;
+}
+
+.portfolio__title {
+	font-family: 'Playfair Display';
+	font-weight: 400;
+	font-size: 81.3081px;
+	line-height: 108px;
+	margin-bottom: 71.14px;
+}
+
+.portfolio-images__container {
+	display: flex;
+	flex-direction: row;
+	gap: 74.23px;
+}
+
+.portfolio-images__col {
+	width: 577.09px;
+}
+
+.port-img-1 {
+	height: 995.48px;
+	margin-bottom: 76.35px;
+}
+
+.port-img-2 {
+	height: 818.34px;
+	margin-bottom: 85.82px;
+}
+
+.port-img-3 {
+	height: 802.87px;
+}
+
+.port-img-4 {
+	height: 624.7px;
+	margin-bottom: 78.44px;
+}
+
+.port-img-5 {
+	height: 1389.22px;
+	margin-bottom: 84.08px;
+}
+
+.port-img-6 { 
+	height: 605.76px;
+}
