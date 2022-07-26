@@ -317,5 +317,77 @@ body {
 .testimonials__link:hover {
 	background-color: #fff;
 	color: #000000;
+	margin-bottom: 368.27px;
 }
 /* TESTIMONIALS SECTION */
+
+/* CONTACT SECTION */
+.contact {
+	width: 855.5px;
+	margin: 25.73px auto 0;
+	font-family: 'Inter';
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact__title {
+	font-weight: 400;
+	font-size: 44.7477px;
+	line-height: 54px;
+	margin-bottom: 12px;
+}
+
+.contact__field {
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 30px;
+	color: #BBBBBB;
+	background-color: black;
+	border: none;
+	border-bottom: 2px solid #FFFFFF;
+	padding-bottom: 12px;
+	margin-bottom: 60px;
+}
+
+.contact__field_message {
+	resize: none;
+}
+
+.contact__submit { 
+	width: fit-content;
+	background-color: white;
+	font-weight: 600;
+	font-size: 38.4067px;
+	line-height: 46px;
+	color: #000000;
+	padding: 13px 45px;
+	margin-top: 41.91px;
+}
+/* CONTACT SECTION */
+
+/* FOOTER */
+footer {
+	margin-top: 410.21px;
+	font-family: 'Inter';
+	font-size: 22px;
+	line-height: 27px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer__title {
+	font-weight: 700;
+	margin-bottom: 24.09px;
+}
+
+.footer__links {
+	font-weight: 300;
+	display: flex;
+	flex-direction: row;
+	gap: 37.81px;
+}
+/* FOOTER */
